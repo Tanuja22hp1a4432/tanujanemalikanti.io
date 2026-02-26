@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { Award, CheckCircle, Star, ExternalLink } from "lucide-react";
+import { Award, Star } from "lucide-react";
 import { portfolioData } from "@/data/portfolio-data";
 
 export default function Achievements() {

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { portfolioData } from "@/data/portfolio-data";
 import { Code2, Cpu, Database, Layout, Terminal, Globe } from "lucide-react";
 
-const iconMap: Record<string, any> = {
+const iconMap: Record<string, React.ReactNode> = {
     "HTML": <Layout size={20} />,
     "CSS": <Layout size={20} />,
     "JavaScript": <Code2 size={20} />,
