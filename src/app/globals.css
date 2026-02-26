@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #ffffff;
+    --foreground: #020617;
+    --primary: #2563eb;
+    --primary-hover: #1d4ed8;
+    --border: #e2e8f0;
+    --font-heading: 'Outfit', sans-serif;
+    --font-body: 'Inter', sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading tracking-tight;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-[1200px] mx-auto px-6 sm:px-8 lg:px-12;
+  }
+
+  .section-spacing {
+    @apply py-20 md:py-32;
+  }
+
+  .glass-card {
+    @apply bg-white/70 backdrop-blur-md border border-slate-200/50 shadow-sm rounded-2xl transition-all duration-300 hover:shadow-xl hover:border-primary/20;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-8 py-3 bg-primary text-white font-semibold rounded-xl transition-all hover:bg-primary-hover hover:-translate-y-0.5 shadow-lg shadow-primary/20;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-8 py-3 bg-slate-100 text-slate-900 font-semibold rounded-xl transition-all hover:bg-slate-200 hover:-translate-y-0.5;
+  }
+
+  .title-underline {
+    @apply w-16 h-1 bg-primary rounded-full mt-4;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
