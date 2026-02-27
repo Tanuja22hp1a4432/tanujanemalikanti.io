@@ -8,7 +8,7 @@ import { portfolioData } from "@/data/portfolio-data";
 
 // Dynamically import the calendar to avoid hydration mismatch
 const GitHubCalendar = dynamic(
-    () => import("react-github-calendar").then((mod) => ({ default: mod.GitHubCalendar })),
+    () => import("react-github-calendar").then((mod) => mod.GitHubCalendar),
     { ssr: false }
 );
 

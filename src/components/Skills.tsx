@@ -25,9 +25,9 @@ export default function Skills() {
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-primary/20 to-transparent" />
 
             <div className="container-custom">
-                <div className="text-center mb-20">
-                    <h2 className="text-4xl font-black text-slate-900 mb-4">Technical Arsenal</h2>
-                    <p className="text-slate-500 font-bold uppercase tracking-widest text-sm">Tools & Technologies</p>
+                <div className="text-center mb-16">
+                    <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">Technical Arsenal</h2>
+                    <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px]">Tools & Technologies</p>
                     <div className="title-underline mx-auto"></div>
                 </div>
 

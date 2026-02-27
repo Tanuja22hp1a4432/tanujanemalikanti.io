@@ -7,11 +7,12 @@ export const portfolioData = {
         email: "tanujanemalikanti@gmail.com",
         summary: "A motivated frontend developer currently gaining industry experience through internship while building modern web applications using React.js and Next.js. Passionate about integrating AI with web technologies and continuously improving development skills.",
         futureGoal: "Preparing for Master's in Data Science (UK – September Intake)",
-        resumeUrl: "#", // Placeholder
+        resumeUrl: "https://drive.google.com/file/d/1jGadrc5r4UBajNqMz103kSJKCMbgLn_2/view",
     },
     socialLinks: {
         github: "https://github.com/Tanuja22hp1a4432",
         linkedin: "https://linkedin.com/in/tanuja-nemalikanti",
+        vercel: "https://vercel.com/ntanujas-projects",
     },
     education: [
         {
@@ -80,30 +81,42 @@ export const portfolioData = {
             description: "A complete e-commerce platform built during internship featuring modern UI and responsive design.",
             tech: ["Next.js", "React", "CSS Modules"],
             github: "https://github.com/Tanuja22hp1a4432/Luxe-Mall-E-commerce",
-            demo: "#",
+            demo: "https://luxe-mall-e-commerce-website-using-five.vercel.app",
             image: "/projects/ecommerce.jpg",
+        },
+        {
+            title: "Healthcare Appointment System",
+            description: "Full-stack web app for doctor/patient scheduling and reports developed during Cisco internship.",
+            tech: ["React", "Node.js", "Express", "MongoDB"],
+            github: "https://github.com/Tanuja22hp1a4432",
+            demo: "", // No live demo, will show GitHub button
+            image: "/projects/healthcare.jpg",
         },
         {
             title: "AI Mental Health Wellness Website",
             description: "College project focusing on mental health support using AI-driven insights (Ongoing).",
             tech: ["Next.js", "AI APIs", "React"],
-            github: "#",
-            demo: "#",
+            github: "https://github.com/Tanuja22hp1a4432",
+            demo: "",
             image: "/projects/mental-health.jpg",
-        },
-        {
-            title: "Smart Irrigation System",
-            description: "Designed automated irrigation using Arduino and moisture sensors (Innovathon 2022).",
-            tech: ["Arduino", "Sensors", "IoT"],
-            github: "#",
-            demo: "#",
-            image: "/projects/irrigation.jpg",
         },
     ],
     achievements: [
         { title: "NPTEL – Cloud Computing", type: "Certification" },
         { title: "Cisco – Introduction to Python Programming", type: "Certification" },
         { title: "CODPULSE – Full Stack Development", type: "Certification" },
+        {
+            title: "Smart Irrigation System",
+            type: "Achievement",
+            description: "Designed automated irrigation using Arduino and moisture sensors.",
+            tech: ["Arduino", "Sensors", "IoT"],
+            details: [
+                "Participated as a team (Group of 4) at Innovathon 2022",
+                "Innovathon project",
+                "Not an internship project",
+                "Not an individual development project"
+            ]
+        },
         { title: "Presented Smart Irrigation System at Innovathon 2022", type: "Achievement" },
         { title: "Awarded in cultural events – Ventura (2022–24)", type: "Achievement" },
     ],

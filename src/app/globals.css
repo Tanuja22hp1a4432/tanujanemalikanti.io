@@ -27,7 +27,7 @@
   h4,
   h5,
   h6 {
-    @apply font-heading tracking-tight;
+    @apply font-heading tracking-tight leading-tight;
   }
 }
 
@@ -37,7 +37,7 @@
   }
 
   .section-spacing {
-    @apply py-20 md:py-32;
+    @apply py-12 md:py-24;
   }
 
   .glass-card {

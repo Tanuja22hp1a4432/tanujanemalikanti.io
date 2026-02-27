@@ -18,9 +18,10 @@ export default function About() {
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
+                            transition={{ duration: 0.6 }}
                         >
-                            <h2 className="text-4xl font-black text-slate-900 mb-2">Education</h2>
-                            <p className="text-primary font-bold uppercase tracking-widest text-sm mb-12">Academic Excellence</p>
+                            <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-2">Education</h2>
+                            <p className="text-primary font-bold uppercase tracking-widest text-[10px] mb-8">Academic Excellence</p>
 
                             <div className="space-y-12">
                                 {education.map((item, index) => (

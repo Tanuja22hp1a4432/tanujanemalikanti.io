@@ -21,11 +21,11 @@ export default function Contact() {
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true }}
                         >
-                            <h2 className="text-5xl font-black text-slate-900 leading-tight mb-8">
+                            <h2 className="text-3xl md:text-5xl font-black text-slate-900 leading-tight mb-6">
                                 Let&apos;s build something <br />
                                 <span className="text-primary italic">extraordinary</span> together.
                             </h2>
-                            <p className="text-xl text-slate-500 leading-relaxed mb-16 max-w-lg font-medium">
+                            <p className="text-lg text-slate-500 leading-relaxed mb-12 max-w-lg font-medium">
                                 Currently exploring new opportunities in Frontend Development and Data Science. My inbox is always open.
                             </p>
 
@@ -65,6 +65,21 @@ export default function Contact() {
                                         <span className="block text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-1">Open Source</span>
                                         <span className="text-2xl font-black text-slate-800 group-hover:text-primary transition-all">
                                             Tanuja22hp1a4432
+                                        </span>
+                                    </div>
+                                </a>
+
+                                {/* Vercel Card */}
+                                <a href={portfolioData.socialLinks.vercel} target="_blank" rel="noreferrer" className="flex items-center gap-8 group">
+                                    <div className="w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white group-hover:scale-110 transition-all shadow-sm ring-1 ring-primary/10">
+                                        <svg width="32" height="32" viewBox="0 0 256 256" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M128 0L256 221.705H0L128 0Z" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <span className="block text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-1">Live Deployments</span>
+                                        <span className="text-2xl font-black text-slate-800 group-hover:text-primary transition-all">
+                                            ntanujas-projects
                                         </span>
                                     </div>
                                 </a>
